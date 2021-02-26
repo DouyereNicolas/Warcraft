@@ -1,0 +1,174 @@
+
+
+@font-face {
+    font-family: 'super_legend_boyregular';
+    src: url('superlegendboy-4w8y-webfont.woff2') format('woff2'),
+         url('superlegendboy-4w8y-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "super_legend_boyregular";
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    position: relative;
+    background: url("background.png") no-repeat center center fixed; 
+  background-size: cover;
+    color:#fff;
+}
+
+.orc{
+    width: 50%;
+
+   position: relative;
+}
+
+.imgOrc{
+    position: absolute;
+    top : 18%;
+    left : 15%;
+    width: 60%;
+    height: 58.5%;
+    background-image: url("orc.png");
+    background-size :71.5%;
+    background-repeat: no-repeat;
+}
+
+.degOrc{
+    position: absolute;
+    top : 10%;
+    left : 50%;
+    width: 20%;
+    height: 15%;
+    background-image: url("degat.png");
+    background-size :71.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: hidden;
+}
+
+
+.hero{
+    width: 50%;
+
+    position: relative;
+}
+
+.imgHero{
+    position: absolute;
+    top : 10%;
+    right : 15%;
+    width: 60%;
+    height: 58.5%;
+    background-image: url("hero.png");
+    background-size :75%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.degHero{
+    position: absolute;
+    top : 10%;
+    right : 50%;
+    width: 20%;
+    height: 15%;
+    background-image: url("degat.png");
+    background-size :71.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: hidden;
+}
+
+
+.degat{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    top : 10%;
+    left : 40%;
+    z-index: 1;
+    
+}
+
+.degat p{
+    font-size: 70px;
+    text-align: center;
+}
+
+.gameOver{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonLancement{
+    position: absolute;
+    bottom : 10px;
+    left : 10px;
+    width: 90%;
+    z-index: 100;
+}
+
+.buttonLancement a {
+    color: #fff;
+}
+
+.vieOrc{
+    position: absolute;
+    bottom : 100px;
+    left : 50px;
+    width: 50%;
+    z-index: 100;
+    text-align: left;
+
+    
+}
+.vieOrc progress{
+    height: 50px;
+    width: 250px;
+    margin-right: 25px;
+}
+.vieOrc span{
+    font-size : 35px;
+    
+}
+
+.vieHero{
+    position: absolute;
+    bottom :50px;
+    right : 30px;
+    width: 50%;
+    z-index: 100;
+    text-align: right;
+}
+
+.vieHero progress{
+    height: 50px;
+    width: 250px;
+    margin-right: 25px;
+}
+.vieHero span{
+    font-size : 35px;
+    
+}
+
+.blueBare{
+    text-align: center;
+}
+
+#epic{
+    margin-left:60px;
+    font-size: 35px;
+}
